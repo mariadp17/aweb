@@ -1,0 +1,405 @@
+@font-face {
+    font-family: font-Jost;
+    src: url('fontes/static/Jost-Medium.ttf');
+}
+
+*{
+    margin:0px;
+    padding:0px;
+    text-decoration: none;
+    font-family: font-Jost;
+}
+
+body{
+    background-color: #FFEFCD;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.pag{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(imgs/zyro-image.jpg);
+    background-size: cover;
+    flex-direction: column;
+}
+
+.home img{
+    width: 300px;
+    border-radius: 50%;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.name{
+    text-align: center;
+    color: #FFEFCD;
+    font-size: 50px;
+}
+
+.botao{
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #E09132;
+    border-radius: 80px;
+    font-size: x-large;
+    color: black;
+    padding: 10px;
+    transition: .5s;
+}
+
+.botao:hover{
+    font-size: 10px;
+}
+
+.sobremim{
+    width: 50%;
+    height: 633px;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(imgs/eusorrindo.jpeg);
+    background-size: cover;
+}
+
+p{
+    color: white;
+    margin-top: 250px;
+}
+
+.two{
+    background-color: #A58E74;
+    background-size: cover;
+    width: 100%;
+    height: 633px;
+    margin-left: 100%;
+}
+
+.two p{
+    width: 80%;
+    text-align: justify;
+    margin-top: 20%;
+    font-size: medium;
+    margin-left: 70px;
+}
+
+.two h2{
+    width: 100%;
+    font-size: 400%;
+    color: white;
+    text-align: center;
+}
+
+.nave{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: #E09132;
+    justify-content: space-around;
+    z-index: 2;
+}
+
+.nave a:hover{
+    color: white;
+}
+
+.link{
+    color: black;
+    margin-top: 20px;
+}
+
+.logo{
+    font-size: small;
+}
+
+.curious{
+    width: 105%;
+    height: 800px;
+    background-color: #424530;
+}
+
+.container{
+    display: flex;
+}
+
+.container2{
+    display: grid;
+    gap: 30px;
+    padding: 30px;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.tit{
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    width: 50%;
+    margin: 100px;
+}
+
+.card{
+    display: flex;
+    width: 300px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFEFCD;
+    text-align: center;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+#pic1{
+    width: 90%;
+    height: 80%;
+    margin-bottom: 50px;
+    background-image: url(imgs/ballet.jpg);
+    background-size: cover;
+}
+
+.leg{
+    width: 95%;
+    margin-top: 110%;
+    color: black;
+}
+
+#pic2{
+    width: 90%;
+    height: 80%;
+    margin-bottom: 50px;
+    background-image: url(imgs/euzinha.jpeg);
+    background-size: cover;
+}
+
+#pic3{
+    width: 90%;
+    height: 80%;
+    margin-bottom: 50px;
+    background-image: url(imgs/morango.jpeg);
+    background-size: cover;
+}
+
+#pic4{
+    width: 90%;
+    height: 80%;
+    margin-bottom: 50px;
+    background-image: url(imgs/snake.jpg);
+    background-size: cover;
+}
+
+#pic5{
+    width: 90%;
+    height: 80%;
+    margin-bottom: 50px;
+    background-image: url(imgs/lufana.jpg);
+    background-size: cover;
+}
+
+.container-principal{
+    position: relative;
+    width: 100%;
+}
+
+.container-principal::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    background-color: #424530;
+    top:0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.texto-envolv{
+    padding: 10px 40px;
+    position: relative;
+    width: 51%;
+    box-sizing: border-box;
+    margin: 50px 0;
+}
+
+.texto-envolv::after{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    right: -10px;
+    background-color:#424530;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.esquerda{
+    left: 0;
+}
+
+.direita{
+    left: 50%;
+}
+
+.direita::after{
+    left: -10px;
+}
+
+.conteudo{
+    padding: 15px 15px 15px 17px;
+    background-color: #E09132;
+    border-radius: 4px;
+}
+
+.conteudo h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #FFEFCD;
+    letter-spacing:1px;
+}
+
+.conteudo p{
+    color: #FFEFCD;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 2px;
+}
+
+#dudu{
+    font-size: xx-large;
+    justify-content: center;
+}
+
+.causos{
+    width: 50%;
+    height: 630px;
+    background-color: #424530;
+}
+
+.causos p{
+    text-align: justify;
+    width: 80%;
+    margin-left: 10%;
+    margin: 10%;
+}
+
+.causos h3{
+    text-align: justify;
+    margin-left: 30%;
+    width: 100%;
+    color: white;
+}
+
+.container5{
+    display: flex;
+    height: 900px;
+}
+
+.hab{
+    width: 50%;
+    height: 70%;
+    background-color: #A58E74;
+}
+
+.ha{
+    margin-left: 30%;
+    text-align: justify;
+    color: white;
+}
+
+.hh3{
+    font-size: xx-large;
+    margin: 10%;
+    margin-left: 210px;
+}
+
+.ha h3{
+    text-align: justify;
+    margin-left: 10%;
+    color: white;
+    font-size: xx-large;
+    margin-top: 15%;
+}
+
+.caus{
+    width: 90%;
+    height: 80%;
+    margin-bottom: 50px;
+    background-color: #424530;
+    background-size: cover;
+}
+
+.caus li{
+    width: 90%;
+    text-align: left;
+    font-size: small;
+    margin-left: 10%;
+    margin-top: 5px;
+}
+
+.pagctt{
+    background-color: #E09132;
+    color: white;
+    padding: 20px;
+    height: 50vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.pagctt h2.title{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+#cntctt{
+    width: 90%;
+    margin-top: 30px;
+}
+
+#ctt p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 5px 0;
+}
+
+#ctt a{
+    color: white;
+    text-decoration: none;
+}
+@media screen and (max-width:1200px) {
+    html{
+        overflow-x: hidden;
+    }
+    .container2{
+        grid-template-columns: repeat(1, minmax(300px, 1fr));
+        height: 100vh;
+    }
+    .two h2{
+        font-size: 30px;
+    }
+    .two p{
+        height: 20px;
+        width: 100%;
+        text-align: center;
+    }
+}
