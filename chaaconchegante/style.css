@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.pagina_inteira{
+   
+    background-color: black;
+    width: 1240px;
+    height: 5000px;
+    margin:auto;
+}
+
+.container1{
+    display:flex;
+    background-color: black;
+    width: 100%;
+    height: 69px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    opacity: 0.9;
+    z-index: 1;
+    border-bottom: 1px solid seashell;
+}
+
+.logo{
+    margin: 10px;
+}
+
+a{
+    color: seashell;
+    text-decoration: underline;
+}
+
+.container2{
+    display:flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    justify-content: space-between;
+    margin-right:10px;
+    z-index: 1;
+}
+
+html{
+    height: 5000px;
+}
+
+.img_mission{
+    display:flex;
+    background-image: url("resources/img-mission-background.webp");
+    height: 700px;
+    width: 1200px;
+    margin:auto;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.our_mission{ 
+    background-color: black;
+    justify-content: center;
+    width: 100% ;
+}
+
+.texto{
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    font-size:22px;
+    font-family: Helvetica;
+}
+
+.tea_of_the_month{
+    background-color: black;
+    width: 1000px;
+    margin-top: 20px;
+}
+
+.container3{
+    opacity:0.9;
+    display: flex;
+    justify-content: center;
+}
+
+.img_section_tea_of_the_month{
+    width:300px;
+    height: 200px;
+}
+
+.container5{
+    display:flex;
+    background-color: black;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.texto_chas{
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    width:300px;
+    font-size:22px;
+    font-family: Helvetica;
+    margin-top: 10px;
+}
+
+.container6{
+    display: flex;
+    flex-direction: column;
+}
+
+.container7{
+    display:flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.img_locations{
+   display:flex;
+   background-image: url("resources/img-locations-background.jpg");
+   height:500px;
+   margin:auto;
+   width:1200px;
+   flex-direction: column;
+   opacity: 0.9;
+   margin-top: 30px;
+}
+
+.locations{
+    background-color: black;
+    margin-top: 50px;
+}
+
+.card_locations{
+    margin-top: 15px;
+    width:300px;
+}
+.container8{
+    display:flex;
+    background-color: black;
+    justify-content: center;
+}
+
+.container9{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    opacity: 1;
+    margin-right: 40px;
+    margin-top: 70px;
+}
+
+.espaco_card{
+    margin-left: 40px;
+}
+
+.espaco{
+   margin-top: 30px;
+}
+
+.container10{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    opacity: 1;
+}
+
+.container11{
+    display:flex;
+    flex-direction:column;
+    background-color: black;
+    opacity: 1;
+}
+
+.tamanho{
+    width:1000px;
+}
+
+.container12{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    opacity: 0.9;
+}
+
+.container13{
+    display: flex;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.texto_copyright{
+    color: seashell;
+    background-color: black;
+    text-align: left;
+    font-size:22px;
+    font-family: Helvetica;
+    margin-left: 20px;
+}
